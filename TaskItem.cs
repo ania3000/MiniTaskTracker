@@ -30,8 +30,6 @@ public class TaskItem
     public string Description { get; set; } = string.Empty;
 
     public TaskState Status { get; set; } = TaskState.Todo;
-
-    public TaskPriority Priority { get; set; } = TaskPriority.Medium;
     
     public TaskDifficulty Difficulty { get; set; } = TaskDifficulty.Medium;
 

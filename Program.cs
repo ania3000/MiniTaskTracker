@@ -32,7 +32,7 @@ while (isRunning)
             {
                 Console.WriteLine(
                     $"#{task.Id} | {task.Title} | {task.Status} | " +
-                    $"{task.Priority} | {task.Difficulty}");
+                    $"{task.Difficulty}");
             }
 
             break;
