@@ -50,11 +50,9 @@ while (isRunning)
             Console.Write("Enter description (optional): ");
             string? description = Console.ReadLine();
 
-            Console.WriteLine("Выбери сложность задачи:");
-            Console.WriteLine("1. Лёгкая");
-            Console.WriteLine("2. Средняя");
-            Console.WriteLine("3. Высокая");
-            Console.Write("Твой выбор: ");
+            Console.WriteLine("Choose difficulty");
+            Console.WriteLine("Easy (1), Medium (2), Hard (3)");
+            Console.Write("Your choice: ");
 
             TaskDifficulty difficulty = TaskDifficulty.Medium;
 
